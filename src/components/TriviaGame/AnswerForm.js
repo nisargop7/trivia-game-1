@@ -39,7 +39,7 @@ const AnswerForm = ({ onSubmit, disabled }) => {
           </div>
         )}
       </Form.Group>
-      <Button variant="primary" type="submit" disabled={disabled} className="mt-3">
+      <Button variant="primary" type="submit" disabled={disabled}>
         Submit
       </Button>
     </Form>
